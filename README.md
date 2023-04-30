@@ -103,10 +103,9 @@ python src/summarize_result.py \
 
 ```
 @inproceedings{,
-    title = "",
-    author = "",
-    booktitle = "",
-    month = ,
+    title = "Regularization, semi-supervision, and supervision for a plausible attention-based explanation",
+    author = "Nguyen et al.",
+    month = "",
     year = 2023,
    
 }
