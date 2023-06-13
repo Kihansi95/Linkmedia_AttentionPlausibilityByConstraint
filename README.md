@@ -2,7 +2,7 @@
 
 Duc Hau Nguyen, Cyrielle Mallart, Guillaume Gravier, Pascale Sebillot
 
-Code for the NLDB 2023 paper. This work is funded by ANR.
+Code for the NLDB 2023 paper. Work partially funded by grant ANR-19-CE38-0011-03 from the French national research agency (ANR).
 
 ## Abstract
 
@@ -101,16 +101,24 @@ python src/summarize_result.py \
 
 ## Citations
 
-```
-@inproceedings{,
-    title = "Regularization, semi-supervision, and supervision for a plausible attention-based explanation",
-    author = "Nguyen et al.",
-    month = "",
-    year = 2023,
-   
+```latex
+@InProceedings{10.1007/978-3-031-35320-8_20,
+author="Nguyen, Duc Hau
+and Mallart, Cyrielle
+and Gravier, Guillaume
+and S{\'e}billot, Pascale",
+editor="M{\'e}tais, Elisabeth
+and Meziane, Farid
+and Sugumaran, Vijayan
+and Manning, Warren
+and Reiff-Marganiec, Stephan",
+title="Regularization, Semi-supervision, and Supervision for a Plausible Attention-Based Explanation",
+booktitle="Natural Language Processing and Information Systems",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="285--298",
+abstract="Attention mechanism is contributing to the majority of recent advances in machine learning for natural language processing. Additionally, it results in an attention map that shows the proportional influence of each input in its decision. Empirical studies postulate that attention maps can be provided as an explanation for model output. However, it is still questionable to ask whether this explanation helps regular people to understand and accept the model output (the plausibility of the explanation). Recent studies show that attention weights in RNN encoders are hardly plausible because they spread on input tokens. We thus propose three additional constraints to the learning objective function to improve the plausibility of the attention map: regularization to increase the attention weight sparsity, semi-supervision to supervise the map by a heuristic and supervision by human annotation. Results show that all techniques can improve the attention map plausibility at some level. We also observe that specific instructions for human annotation might have a negative effect on classification performance. Beyond the attention map, results on text classification tasks also show that the contextualization layer plays a crucial role in finding the right space for finding plausible tokens, no matter how constraints bring the gain.",
+isbn="978-3-031-35320-8"
 }
 ```
-
-## Contributing
-
-Anonymous
